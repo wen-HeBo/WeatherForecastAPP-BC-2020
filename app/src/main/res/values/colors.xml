@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="btn_Blue">#358D97</color>
+    <color name="ss1">#257078</color>
+    <color name="Gray">#33ffffff</color>
+    <color name="Red">#FF0000</color>
+    <color name="Blue">#0000FF</color>
+    <color name="touming">#08FFFFFF</color>
+
+
+    <!-- 新版登录模块-->
+    <color name="login_line_color">#dededf</color>
+    <color name="login_input_active">#31b968</color>
+    <color name="login_other_color">#cacaca</color>
+    <color name="account_input_bg_color">#33ffffff</color>
+    <color name="account_lock_bg">#ff43815c</color>
+    <color name="account_lock_font_color">#FF68997C</color>
+    <color name="account_input_color">#c9c9c9</color>
+    <color name="account_pressed_true">#2B2B2B</color>
+
+</resources>

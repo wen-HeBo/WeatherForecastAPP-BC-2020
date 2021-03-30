@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.weather.RecommendFragment"
+    android:paddingBottom="56dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="请扫描二维码"
+                android:gravity="center"/>
+            <ImageView
+                android:id="@+id/enCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <Button
+                android:id="@+id/bt_bing"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/bg_login_submit"
+                android:backgroundTint="@color/btn_Blue"
+                app:backgroundTint="@color/btn_Blue"
+                android:text="每日一图"
+                android:elevation="0dp"
+                android:outlineProvider="none"
+                android:textColor="@color/white"
+                android:textSize="18.0dip"
+                android:translationZ="0dp"
+                tools:targetApi="lollipop"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:id="@+id/img_bing"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_marginBottom="16dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

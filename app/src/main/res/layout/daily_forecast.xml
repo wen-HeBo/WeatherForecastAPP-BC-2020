@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:background="@drawable/corners_bg">
+
+    <TextView
+        android:text="预告"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/daily_forecast_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/daily_date1"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_alignParentLeft="true"
+                android:textSize="15dp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:id="@+id/daily_weather1"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/daily_weather_image1"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="15dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/daily_temperature1"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/daily_date2"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_alignParentLeft="true"
+                android:textSize="15dp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:id="@+id/daily_weather2"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/daily_weather_image2"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="15dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/daily_temperature2"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:gravity="right"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/daily_date3"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_alignParentLeft="true"
+                android:textSize="15dp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:id="@+id/daily_weather3"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/daily_weather_image3"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="15dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/daily_temperature3"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:gravity="right"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
